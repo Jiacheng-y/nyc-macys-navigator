@@ -2,10 +2,15 @@
   "name": "paradepilot",
   "private": true,
   "version": "0.1.0",
-  "description": "ParadePilot — Meet your friends, not the traffic. Thanksgiving 2026 NYC navigation demo.",
-  "workspaces": ["server", "web"],
+  "description": "ParadePilot \u2014 Meet your friends, not the traffic. Thanksgiving 2026 NYC navigation demo.",
+  "workspaces": [
+    "server",
+    "web"
+  ],
   "scripts": {
-    "dev": "concurrently -k -n api,web -c yellow,magenta \"npm run dev -w server\" \"npm run dev -w web\"",
+    "dev": "npm run dev -w web",
+    "dev:api": "npm run dev -w server",
+    "dev:full": "concurrently -k -n api,web -c yellow,magenta \"npm run dev -w server\" \"VITE_API_BASE=http://localhost:8787 npm run dev -w web\"",
     "build": "npm run build -w web",
     "start": "npm run start -w server",
     "test": "npm run test -w server",

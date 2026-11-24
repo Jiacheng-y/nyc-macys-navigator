@@ -156,7 +156,7 @@ export function createEngine(deps: PlanDeps = {}) {
           confidence: event.status === 'simulated' ? 'Simulated event — for demonstration only.' : event.status === 'official_confirmed' ? 'High: official notice. Map geometry is approximate.' : 'Lower: not officially confirmed.',
           sources: [{ name: event.sourceName, url: event.sourceUrl, status: event.status, observedAt: event.observedAt }],
           estimatedDelayMin: delta,
-          lastKnown: `Last-known route: ${Math.round(sel.durationS / 60)} min, planned at ${t.plan.createdAt}.`,
+          lastKnown: `Last-known route: ${Math.round(sel.durationS / 60)} min, planned at ${new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit' }).format(new Date(t.plan.createdAt))} ET.`,
           simulated: c.simulated,
         };
         status.etaChangeMin = delta;
