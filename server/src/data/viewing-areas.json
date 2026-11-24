@@ -1,0 +1,31 @@
+{
+  "note": "NONE of these are officially verified for 2026. 'demo_assumed' entries exist so the opt-in flow can be demonstrated; confirm access with NYPD / Macy's before going. Replace with verified entries (verification: 'verified') once official viewing guidance is published.",
+  "areas": [
+    {
+      "id": "view-w44-sixth",
+      "name": "W 44th St, just west of 6th Ave (Midtown)",
+      "anchor": { "ave": "seventh", "st": 44, "offsetX": 140 },
+      "description": "Side-street sidewalk a short walk from the 6th Ave parade route, approached from 7th Ave (north of the 42nd St closure).",
+      "verification": "demo_assumed",
+      "verificationNote": "Demo assumption — not verified as a public viewing area. Barricades, frozen zones and capacity limits may apply.",
+      "accessNote": "Check access before going. Do not enter barricaded roadway or cross the route except at police-directed points.",
+      "officialGuidanceUrl": "https://www.nyc.gov/assets/cecm/downloads/pdf/thanksgiving-standard-street-closures-2026.pdf"
+    },
+    {
+      "id": "view-w70-cpw",
+      "name": "W 70th St near Central Park West (Upper West Side)",
+      "anchor": { "ave": "col", "st": 70, "offsetX": 95 },
+      "description": "Side-street sidewalk near the CPW part of the route, approached from Columbus Ave.",
+      "verification": "demo_assumed",
+      "verificationNote": "Demo assumption — not verified as a public viewing area. Barricades, frozen zones and capacity limits may apply.",
+      "accessNote": "Check access before going. CPW itself and cross streets 72nd–87th are closed to the public roadway per the notice.",
+      "officialGuidanceUrl": "https://www.nyc.gov/assets/cecm/downloads/pdf/thanksgiving-standard-street-closures-2026.pdf"
+    }
+  ],
+  "officialLinks": [
+    { "label": "NYC 2026 Thanksgiving street closures (PDF)", "url": "https://www.nyc.gov/assets/cecm/downloads/pdf/thanksgiving-standard-street-closures-2026.pdf" },
+    { "label": "NYC DOT Weekly Traffic Advisory", "url": "https://www.nyc.gov/html/dot/html/motorist/weektraf.shtml" },
+    { "label": "Macy's Thanksgiving Day Parade (official site)", "url": "https://www.macys.com/social/parade/" },
+    { "label": "MTA service updates", "url": "https://new.mta.info" }
+  ]
+}

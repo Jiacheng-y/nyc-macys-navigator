@@ -1,0 +1,12 @@
+{
+  "note": "Venues used for the BestTime venue-level busyness proxy. Coordinates are approximate. A venue only gets live data if BESTTIME_VENUE_IDS maps its slug to a BestTime venue_id.",
+  "venues": [
+    { "slug": "macys-herald-square", "name": "Macy's Herald Square", "lat": 40.7508, "lng": -73.9886 },
+    { "slug": "bryant-park", "name": "Bryant Park", "lat": 40.7536, "lng": -73.9832 },
+    { "slug": "times-square", "name": "Times Square", "lat": 40.7580, "lng": -73.9855 },
+    { "slug": "rockefeller-center", "name": "Rockefeller Center", "lat": 40.7587, "lng": -73.9787 },
+    { "slug": "grand-central", "name": "Grand Central Terminal", "lat": 40.7527, "lng": -73.9772 },
+    { "slug": "columbus-circle", "name": "Columbus Circle", "lat": 40.7681, "lng": -73.9819 },
+    { "slug": "penn-station", "name": "Penn Station", "lat": 40.7506, "lng": -73.9935 }
+  ]
+}
